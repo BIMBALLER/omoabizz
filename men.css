@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    background-image: url('background.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+header {
+    background-color: red;
+    color: #ffd700;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.headd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.pp {
+    font-size: 2.5rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.navvvv {
+    text-decoration: none;
+    color: red;
+    background-color: #ffd700;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navvvv:hover {
+    background-color: #e6c200;
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: 900;
+    background-color: #fff;
+    border: none;
+    color: red;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+h1 .reg {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.you {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #222;
+}
+
+.rrr {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.a1 {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: transform 0.2s;
+}
+
+.a1:hover {
+    transform: scale(1.05);
+}
+
+.a1 div {
+    background: #f9f9f9;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5
